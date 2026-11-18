@@ -1,0 +1,28 @@
+=================================
+MODEL: MATRIX SEGMENTED (SVD)
+=================================
+Interaction data size: (43834, 7)
+Cluster mapping size: (14354, 2)
+Merged dataset size: (43821, 8)
+Clusters found: [0, 1, 2]
+
+Training cluster 0
+Cluster size: (3647, 8)
+
+Training cluster 1
+Cluster size: (31944, 8)
+
+Training cluster 2
+Cluster size: (8230, 8)
+
+Evaluating combined predictions...
+
+Results
+-----------------------
+RMSE: 0.8263811095949829
+MAE: 0.5457236544186423
+Precision@10: 0.10573313782992223
+Recall@10: 0.8404692082111437
+
+Finished.
+=================================

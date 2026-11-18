@@ -1,0 +1,4 @@
+model,mean,std
+MF (SVD),0.992,0.0009
+"MF (SVD) — segmented, train-only clusters",1.0763,0.0122
+"MF (SVD) — segmented, leaky clusters (original)",0.8446,0.009

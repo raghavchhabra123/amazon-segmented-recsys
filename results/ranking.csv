@@ -1,0 +1,14 @@
+model,HR@10,NDCG@10,Precision@10
+Global mean,0.000,0.000,0.0000
+Popularity,0.293,0.160,0.0293
+Bias baseline,0.171,0.113,0.0171
+Bias baseline — segmented,0.198,0.131,0.0198
+MF (SVD),0.147 ± 0.003,0.089 ± 0.003,0.0147 ± 0.0003
+MF (SVD) — segmented,0.060 ± 0.003,0.030 ± 0.002,0.0060 ± 0.0003
+"MF (SVD) — segmented, leaky clusters",0.108 ± 0.004,0.053 ± 0.002,0.0108 ± 0.0004
+Neural CF,0.057 ± 0.062,0.037 ± 0.041,0.0057 ± 0.0062
+Neural CF — segmented,0.123 ± 0.087,0.073 ± 0.046,0.0123 ± 0.0087
+"Neural CF — segmented, leaky clusters",0.196 ± 0.008,0.112 ± 0.014,0.0196 ± 0.0008
+BPR-MF,0.305 ± 0.016,0.229 ± 0.008,0.0305 ± 0.0016
+BPR-MF — segmented,0.289 ± 0.008,0.218 ± 0.004,0.0289 ± 0.0008
+Random (expected),0.008,—,0.0008

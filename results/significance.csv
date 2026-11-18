@@ -1,0 +1,13 @@
+comparison,metric,delta,ci_low,ci_high,significant
+Bias baseline — segmented vs Bias baseline,ΔRMSE,0.1168,0.0924,0.1417,True
+Bias baseline — segmented vs Bias baseline,ΔHR@10,0.0271,0.0225,0.0321,True
+MF (SVD) — segmented vs MF (SVD),ΔRMSE,0.1219,0.0979,0.1459,True
+MF (SVD) — segmented vs MF (SVD),ΔHR@10,-0.0858,-0.0943,-0.0776,True
+"MF (SVD) — segmented, leaky clusters vs MF (SVD)",ΔRMSE,-0.2282,-0.2466,-0.2096,True
+"MF (SVD) — segmented, leaky clusters vs MF (SVD)",ΔHR@10,-0.0387,-0.0462,-0.0306,True
+Neural CF — segmented vs Neural CF,ΔRMSE,0.039,0.0263,0.0516,True
+Neural CF — segmented vs Neural CF,ΔHR@10,0.0671,0.0603,0.0735,True
+"Neural CF — segmented, leaky clusters vs Neural CF",ΔRMSE,-0.2762,-0.294,-0.258,True
+"Neural CF — segmented, leaky clusters vs Neural CF",ΔHR@10,0.0725,0.0658,0.0792,True
+BPR-MF — segmented vs BPR-MF,ΔHR@10,-0.038,-0.0481,-0.0278,True
+BPR-MF vs Popularity,ΔHR@10,0.0287,0.0191,0.0388,True

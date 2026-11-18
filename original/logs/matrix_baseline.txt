@@ -1,0 +1,19 @@
+=================================
+MODEL: MATRIX BASELINE (SVD)
+=================================
+Loading interaction dataset...
+Dataset size: (43834, 7)
+Train size: 35067
+Test size: 8767
+Training matrix factorization model...
+Generating predictions...
+
+Results
+-----------------------
+RMSE: 0.9958891644489346
+MAE: 0.7054232626673644
+Precision@10: 0.10642647058824542
+Recall@10: 0.8382352941176471
+
+Finished.
+=================================

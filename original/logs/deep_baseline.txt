@@ -1,0 +1,32 @@
+=================================
+MODEL: DEEP BASELINE (Neural CF)
+=================================
+Using device: cuda
+Dataset size: (43834, 7)
+Users: 14357
+Items: 2335
+Train rows: 30683
+Val rows: 6575
+Test rows: 6576
+Training neural recommender...
+Epoch 1 | Train Loss: 426.0004 | Val Loss: 53.2335
+Epoch 2 | Train Loss: 107.9062 | Val Loss: 13.8276
+Epoch 3 | Train Loss: 49.2961 | Val Loss: 10.8642
+Epoch 4 | Train Loss: 43.6041 | Val Loss: 10.3660
+Epoch 5 | Train Loss: 41.5188 | Val Loss: 10.1651
+Epoch 6 | Train Loss: 40.0148 | Val Loss: 9.9979
+Epoch 7 | Train Loss: 38.7127 | Val Loss: 9.8651
+Epoch 8 | Train Loss: 37.5839 | Val Loss: 9.7542
+Epoch 9 | Train Loss: 36.5472 | Val Loss: 9.6646
+Epoch 10 | Train Loss: 35.6090 | Val Loss: 9.5715
+Evaluating model on test set...
+
+Results
+-----------------------
+RMSE: 1.1790777168082855
+MAE: 0.8756904375451615
+Precision@10: 0.09959543949982375
+Recall@10: 0.8403824935638102
+
+Finished.
+=================================
