@@ -74,9 +74,12 @@ exchange they make larger misses, which RMSE penalises.
 | BPR-MF, segmented | 0.289 | 0.218 |
 
 Models trained to predict ratings rank poorly. Here they lose to simply
-recommending the most popular items. BPR-MF beats popularity (ΔHR@10 +0.029,
-95% CI [+0.019, +0.039]; NDCG@10 +43%). Segmenting BPR-MF again hurts
-(ΔHR@10 −0.038, CI [−0.048, −0.028]). Neural CF ranking is unstable across
+recommending the most popular items. BPR-MF clearly beats popularity on
+NDCG@10 (0.223–0.238 on every seed vs 0.160, about +43%), so it puts the right
+item higher up. Its HR@10 lead is small and not robust: 0.322 / 0.302 / 0.291
+across seeds vs 0.293. The bootstrap CI in `results/` (+0.029, [+0.019, +0.039])
+is from seed 0 only. Segmenting BPR-MF hurts (ΔHR@10 −0.038 on seed 0;
+segmented is lower on 2 of 3 seeds). Neural CF ranking is unstable across
 seeds (HR@10 0.003–0.13), so we draw no ranking conclusion from it.
 
 ## Limitations
